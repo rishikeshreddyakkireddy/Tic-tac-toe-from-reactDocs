@@ -1,0 +1,18 @@
+we can put only expressions in curly brackets
+
+React updates only the code written '{}'.
+
+
+
+React components takes arbitrary inputs as attributes and returns react elements (jsx expressions).
+
+(if we doesn't pass a property name it doesn't render the object.)
+
+=> All React components must act like pure functions with respect to their props.
+
+component is a block of code which takes parameters(props) are returns hierarchy of views.
+
+state is considered to be private to a component that defines it, we cannot update the Board’s state directly from Square
+(parent to childern when an action performed on a childComonent)
+
+immutability!
